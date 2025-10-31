@@ -1,4 +1,5 @@
-# Timer 8-bit feature list
+# Timer 8-bit feature list 
+* The RTL code was provided by another party; I only performed verification based on their specification.
 - Configure register via APB protocol (IP is APB slave).
 - Support APB transfer with no wait states and no error handling. Timer can count up and down.
 - Detect overflow (count reach 255) and underflow (count reach 0).
